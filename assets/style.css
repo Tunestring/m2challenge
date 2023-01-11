@@ -72,18 +72,10 @@ footer {
   grid-row: 2/4;
   }
 
-section.navigate {
-  border: black solid 3px;
-  position:relative;
-  margin-left: auto; 
-  margin-right: 70%;
-  align-self: flex-start;
-  }
-
 .tile {
   position: relative;
   width: 100%;
-  border: 1px solid black;
+  border: 1px solid #00b3ff;
   display: grid;
   }
   
@@ -115,24 +107,21 @@ section.navigate {
     transform: scale(1.02)
   }
 
-.col-1 {
-    flex: 1;
-  }
-
 .column {
     display: flex;
     width: 33.3%;
-    margin-bottom: 16px;
-    padding: 0 8px;
+    margin-bottom: 1%;
     }
   
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 8px;
+    margin: 10px;
+    padding: 5%;
     }
   
 .container {
     padding: 0 16px;
+    border: #dbe4ed solid 3px;
     }
   
 .container::after, .row::after {
@@ -164,9 +153,10 @@ section.navigate {
     }
   
   @media screen and (max-width: 650px) {
-    .column {width: 100%; display: block;}
+    .column {width: 100%; display: block;} 
+    .row {background-image: none;}
+    body {background-color: #dbe4ed;}
     }
-
 div {
     margin: auto;
     }
@@ -198,19 +188,34 @@ div.link:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
     }
+
 div.row {
     background-image: url(/m2challenge/assets/pic9.jpg);
     background-position: 100%;
-    color: #dbe4ed; 
+    background-attachment: flex;
+    background-position: left, right;
+    background-repeat: no-repeat;
+    color: #dbe4ed;
+    object-fit: cover;
+    display: block;
+    height: 100%;
+    width: 100%;
     }
 
 div.column {
-    background-color: #000;
+    background-color: rgb(37, 36, 36);
+    border: 20px solid #dbe4ed;
+    margin-top: 2%;
     }
 
 .tile:hover, .button:hover {
-      transition: all 0.5s ease-in-out;
-      box-shadow: inset 0px 0px 8px #dbe4ed, 0 0 30px #006997;
-  }
-  
-  
+    transition: all 0.5s ease-in-out;
+    box-shadow: inset 0px 0px 8px #dbe4ed, 0 0 30px #006997;
+    }
+h2, p.title, p {
+  padding: 5%;
+  text-align: center;
+}
+h2 {
+  border-bottom: #dbe4ed solid 3px
+}
