@@ -153,7 +153,7 @@ section.navigate {
     margin-right:30px;
     margin-bottom: 70px;
     line-height:2;
-    background: url('/mod2challenge/assets/me.jpg');
+    background: url('/m2challenge/assets/me.jpg');
     background-size: cover;
     background-position: center;
   }
@@ -238,7 +238,7 @@ div.link:hover:after {
     transform-origin: bottom left;
   }
   div.row{
-    background-image: url(/mod2challenge/assets/pic9.jpg);
+    background-image: url(/m2challenge/assets/pic9.jpg);
     background-position: 100%;
     color: #dbe4ed;
     
