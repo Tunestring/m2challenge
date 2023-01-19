@@ -2,12 +2,7 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+This project was done to demonstrate skills learned to design and build a responsive website that can be viewed fully in any resolution. In the future, this project can be updated to showcase the student developers work and projects completed to help demonstrate to future employers capability and current level of skill.
 
 ## Installation
 
@@ -19,16 +14,16 @@ Provide instructions and examples for use. Include screenshots as needed.
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-    ![Page Screenshot](assets/images/screenshot.png) 
+<img src="./assets/images/screenshot.png" alt="Screenshot of portfolio" style="display: inline-block; margin 0 auto; max-width: 300px">
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+How to create a professional README: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+HTML Semantic Elements: https://www.w3schools.com/html/html5_semantic_elements.asp
+w3schools - HTML Responsive Design: https://www.w3schools.com/html/html_responsive.asp
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+And as always, this couldn't have been completed with out the help from fellow classmates!
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+See license in repo
