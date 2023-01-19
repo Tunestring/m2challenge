@@ -154,8 +154,8 @@ footer {
   
   @media screen and (max-width: 650px) {
     .column {width: 100%; display: block;} 
-    .row {background-image: none;}
-    body {background-color: #dbe4ed;}
+    .row {background-image: none; height: 100%;}
+
     }
 div {
     margin: auto;
